@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.0;
 
 contract HelloWorld {
-    string public message = "Hello, Solidity!";
+    function sayHello() public pure returns (string memory) {
+        return "Hello, World!";
+    }
 
-    function setMessage(string memory newMessage) public {
-        message = newMessage;
+    function greet(string memory name) public pure returns (string memory) {
+        return string(abi.encodePacked("Hello, ", name, "!"));
     }
 }
