@@ -1,2 +1,18 @@
-# awesome-notes
-My collection of notes and small scripts
+# Awesome Notes
+
+Учебный репозиторий с заметками и примерами кода. Каждый день добавляются новые файлы для практики работы с GitHub.
+
+## Структура проекта
+
+- `HelloWorld.sol` — простой смарт-контракт на Solidity  
+- `Python/hello.py` — скрипт на Python, печатающий приветствие  
+- `Notes/git-tips.md` — полезные советы по работе с Git  
+- *(скоро)* `Notes/solidity-tips.md` — заметки по Solidity  
+
+## Цели проекта
+
+- Поддерживать регулярную активность на GitHub  
+- Практиковаться в Git, Solidity и Python  
+- Постепенно собирать коллекцию полезных заметок и примеров  
+
+---
